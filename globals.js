@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+  console.log("✅ globals.js cargado correctamente");
+
   const canvas = document.getElementById('gameCanvas');
   const ctx = canvas.getContext('2d');
 
